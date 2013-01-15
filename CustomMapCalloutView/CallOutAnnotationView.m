@@ -6,19 +6,19 @@
 //  Copyright (c) 2012年 Jian-Ye. All rights reserved.
 //
 
-#import "CallOutAnnotationVifew.h"
+#import "CallOutAnnotationView.h"
 #import <QuartzCore/QuartzCore.h>
 
 
 #define  Arror_height 15
 
-@interface CallOutAnnotationVifew ()
+@interface CallOutAnnotationView ()
 
 -(void)drawInContext:(CGContextRef)context;
 - (void)getDrawPath:(CGContextRef)context;
 @end
 
-@implementation CallOutAnnotationVifew
+@implementation CallOutAnnotationView
 @synthesize contentView;
 
 - (void)dealloc

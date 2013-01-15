@@ -10,7 +10,8 @@
 #import <MapKit/MapKit.h>
 
 #import "BasicMapAnnotation.h"
-#import "CallOutAnnotationVifew.h"
+#import "CallOutAnnotationView.h"
+#import "CalloutMapAnnotation.h"
 
 @protocol MapViewControllerDidSelectDelegate;
 
@@ -23,7 +24,6 @@
 @property (retain, nonatomic) IBOutlet MKMapView *mapView;
 
 @property (nonatomic,retain) id<MapViewControllerDidSelectDelegate> delegate;
-
 
 - (void) resetAnnitations:(NSArray *)data;
 @end

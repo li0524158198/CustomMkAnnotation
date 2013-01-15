@@ -14,8 +14,15 @@
 }
 @end
 
+
+
 @implementation BIDViewController
 
+-(void) dealloc
+{
+    [_mapViewController release];
+    [super dealloc];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -31,11 +38,16 @@
     NSArray *array = [NSArray arrayWithObjects:dic1, dic2, dic3, dic4, nil];
     
     _mapViewController = [[BIDMapViewController alloc]initWithNibName:@"BIDMapViewController" bundle:nil];
-    _mapViewController.delegate = nil;
+    _mapViewController.delegate = self;
     [self.view addSubview:_mapViewController.view];
     [_mapViewController.view setFrame:self.view.bounds];
-    NSLog(@"%@",array);
+//    NSLog(@"%@",array);
     [_mapViewController resetAnnitations:array];
+}
+
+- (void)customMKMapViewDidSelectedWithInfo:(id)info
+{
+    NSLog(@"%@",info);
 }
 
 - (void)didReceiveMemoryWarning

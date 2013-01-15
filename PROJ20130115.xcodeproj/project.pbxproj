@@ -22,11 +22,13 @@
 		11F7817416A595D400290EA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F7817316A595D400290EA5 /* MapKit.framework */; };
 		11F7817716A5973A00290EA5 /* BIDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7817616A5973A00290EA5 /* BIDMapViewController.m */; };
 		11F7818216A5979400290EA5 /* BasicMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7817A16A5979400290EA5 /* BasicMapAnnotation.m */; };
-		11F7818316A5979400290EA5 /* CallOutAnnotationVifew.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7817C16A5979400290EA5 /* CallOutAnnotationVifew.m */; };
+		11F7818316A5979400290EA5 /* CallOutAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7817C16A5979400290EA5 /* CallOutAnnotationView.m */; };
 		11F7818416A5979400290EA5 /* CalloutMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7817E16A5979400290EA5 /* CalloutMapAnnotation.m */; };
 		11F7818516A5979400290EA5 /* JingDianMapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7818016A5979400290EA5 /* JingDianMapCell.m */; };
 		11F7818616A5979400290EA5 /* JingDianMapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F7818116A5979400290EA5 /* JingDianMapCell.xib */; };
 		11F7818816A5994900290EA5 /* BIDMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F7818716A5994900290EA5 /* BIDMapViewController.xib */; };
+		11F7818C16A5AB9C00290EA5 /* MuddDetail.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11F7818A16A5AB9C00290EA5 /* MuddDetail.jpeg */; };
+		11F7818D16A5AB9C00290EA5 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F7818B16A5AB9C00290EA5 /* pin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,14 +54,16 @@
 		11F7817616A5973A00290EA5 /* BIDMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDMapViewController.m; path = ../BIDMapViewController.m; sourceTree = "<group>"; };
 		11F7817916A5979400290EA5 /* BasicMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicMapAnnotation.h; sourceTree = "<group>"; };
 		11F7817A16A5979400290EA5 /* BasicMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicMapAnnotation.m; sourceTree = "<group>"; };
-		11F7817B16A5979400290EA5 /* CallOutAnnotationVifew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallOutAnnotationVifew.h; sourceTree = "<group>"; };
-		11F7817C16A5979400290EA5 /* CallOutAnnotationVifew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallOutAnnotationVifew.m; sourceTree = "<group>"; };
+		11F7817B16A5979400290EA5 /* CallOutAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallOutAnnotationView.h; sourceTree = "<group>"; };
+		11F7817C16A5979400290EA5 /* CallOutAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallOutAnnotationView.m; sourceTree = "<group>"; };
 		11F7817D16A5979400290EA5 /* CalloutMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutMapAnnotation.h; sourceTree = "<group>"; };
 		11F7817E16A5979400290EA5 /* CalloutMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutMapAnnotation.m; sourceTree = "<group>"; };
 		11F7817F16A5979400290EA5 /* JingDianMapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingDianMapCell.h; sourceTree = "<group>"; };
 		11F7818016A5979400290EA5 /* JingDianMapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingDianMapCell.m; sourceTree = "<group>"; };
 		11F7818116A5979400290EA5 /* JingDianMapCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingDianMapCell.xib; sourceTree = "<group>"; };
 		11F7818716A5994900290EA5 /* BIDMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDMapViewController.xib; path = ../BIDMapViewController.xib; sourceTree = "<group>"; };
+		11F7818A16A5AB9C00290EA5 /* MuddDetail.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MuddDetail.jpeg; sourceTree = "<group>"; };
+		11F7818B16A5AB9C00290EA5 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 		11F7815516A595AB00290EA5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				11F7818916A5AB9C00290EA5 /* Image */,
 				11F7817816A5979400290EA5 /* CustomMapCalloutView */,
 				11F7815616A595AB00290EA5 /* PROJ20130115-Info.plist */,
 				11F7815716A595AB00290EA5 /* InfoPlist.strings */,
@@ -143,8 +148,8 @@
 			children = (
 				11F7817916A5979400290EA5 /* BasicMapAnnotation.h */,
 				11F7817A16A5979400290EA5 /* BasicMapAnnotation.m */,
-				11F7817B16A5979400290EA5 /* CallOutAnnotationVifew.h */,
-				11F7817C16A5979400290EA5 /* CallOutAnnotationVifew.m */,
+				11F7817B16A5979400290EA5 /* CallOutAnnotationView.h */,
+				11F7817C16A5979400290EA5 /* CallOutAnnotationView.m */,
 				11F7817D16A5979400290EA5 /* CalloutMapAnnotation.h */,
 				11F7817E16A5979400290EA5 /* CalloutMapAnnotation.m */,
 				11F7817F16A5979400290EA5 /* JingDianMapCell.h */,
@@ -153,6 +158,15 @@
 			);
 			name = CustomMapCalloutView;
 			path = ../CustomMapCalloutView;
+			sourceTree = "<group>";
+		};
+		11F7818916A5AB9C00290EA5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				11F7818A16A5AB9C00290EA5 /* MuddDetail.jpeg */,
+				11F7818B16A5AB9C00290EA5 /* pin.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +228,8 @@
 				11F7816B16A595AB00290EA5 /* BIDViewController.xib in Resources */,
 				11F7818616A5979400290EA5 /* JingDianMapCell.xib in Resources */,
 				11F7818816A5994900290EA5 /* BIDMapViewController.xib in Resources */,
+				11F7818C16A5AB9C00290EA5 /* MuddDetail.jpeg in Resources */,
+				11F7818D16A5AB9C00290EA5 /* pin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +245,7 @@
 				11F7816816A595AB00290EA5 /* BIDViewController.m in Sources */,
 				11F7817716A5973A00290EA5 /* BIDMapViewController.m in Sources */,
 				11F7818216A5979400290EA5 /* BasicMapAnnotation.m in Sources */,
-				11F7818316A5979400290EA5 /* CallOutAnnotationVifew.m in Sources */,
+				11F7818316A5979400290EA5 /* CallOutAnnotationView.m in Sources */,
 				11F7818416A5979400290EA5 /* CalloutMapAnnotation.m in Sources */,
 				11F7818516A5979400290EA5 /* JingDianMapCell.m in Sources */,
 			);
