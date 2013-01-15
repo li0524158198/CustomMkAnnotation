@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface BIDViewController : UIViewController
+#import "BIDMapViewController.h"
+@interface BIDViewController : UIViewController<MapViewControllerDidSelectDelegate>
 
 @end
+
+
